@@ -8,7 +8,10 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-[#FCFBF8]">
+    <section className="relative overflow-hidden bg-[#FCFAF6]">
+      <div className="absolute -right-40 -top-40 h-[650px] w-[650px] rounded-full bg-[#E8E2D5]/50 blur-[120px]" />
+
+<div className="absolute -left-40 bottom-[-200px] h-[550px] w-[550px] rounded-full bg-[#F0D9D2]/40 blur-[120px]" />
         <div
   className="absolute inset-0 opacity-[0.04]"
   style={{
@@ -129,7 +132,7 @@ export default function Hero() {
           >
             <div className="absolute inset-0 z-10 bg-gradient-to-tr from-white/10 via-transparent to-[#FFF4E8]/30 pointer-events-none" />
             <Image
-              src="/images/hero/hero.jpg"
+              src="/images/hero/hero1.png"
               alt="Art Therapy Session"
               fill
               priority

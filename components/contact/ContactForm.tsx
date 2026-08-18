@@ -90,10 +90,10 @@ export default function ContactForm() {
         {/* Form */}
 
         <form
-          action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID"
-          method="POST"
-          className="space-y-5"
-        >
+  action="https://formspree.io/f/mrpzankj"
+  method="POST"
+  className="space-y-5"
+>
 
           <input
             required
